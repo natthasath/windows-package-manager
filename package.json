@@ -1,11 +1,38 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-01-09T11:00:03.606-00:00",
+	"CreationDate" : "2023-01-11T10:54:11.848-00:00",
 	"Sources" : 
 	[
 		{
 			"Packages" : 
 			[
+				{
+					"PackageIdentifier" : "9PG6GHB4CT57"
+				},
+				{
+					"PackageIdentifier" : "9WZDNCRD29V9"
+				},
+				{
+					"PackageIdentifier" : "XPFFH613W8V6LV"
+				},
+				{
+					"PackageIdentifier" : "9NBLGGH6BZL3"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+				"Identifier" : "StoreEdgeFD",
+				"Name" : "msstore",
+				"Type" : "Microsoft.Rest"
+			}
+		},
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "ArduinoSA.IDE.stable"
+				},
 				{
 					"PackageIdentifier" : "7zip.7zip"
 				},
@@ -14,6 +41,9 @@
 				},
 				{
 					"PackageIdentifier" : "Brave.Brave"
+				},
+				{
+					"PackageIdentifier" : "CPUID.CPU-Z"
 				},
 				{
 					"PackageIdentifier" : "EFF.Certbot"
@@ -73,6 +103,9 @@
 					"PackageIdentifier" : "RaspberryPiFoundation.RaspberryPiImager"
 				},
 				{
+					"PackageIdentifier" : "Atlassian.Sourcetree"
+				},
+				{
 					"PackageIdentifier" : "Spotify.Spotify"
 				},
 				{
@@ -130,6 +163,9 @@
 					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
+					"PackageIdentifier" : "PuTTY.PuTTY"
+				},
+				{
 					"PackageIdentifier" : "GoLang.Go.1.17"
 				},
 				{
@@ -137,6 +173,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64"
 				},
 				{
 					"PackageIdentifier" : "Google.Drive"
@@ -160,13 +199,13 @@
 					"PackageIdentifier" : "Microsoft.AzureStorageExplorer"
 				},
 				{
-					"PackageIdentifier" : "ESET.EndpointAntivirus"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86"
+				},
+				{
+					"PackageIdentifier" : "WiresharkFoundation.Wireshark"
 				},
 				{
 					"PackageIdentifier" : "VideoLAN.VLC"
@@ -199,7 +238,10 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
-					"PackageIdentifier" : "Python.Python.3.9"
+					"PackageIdentifier" : "Python.Python.3.10"
+				},
+				{
+					"PackageIdentifier" : "Tableau.Desktop"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.SDK.3_1"
@@ -211,24 +253,6 @@
 				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
 				"Name" : "winget",
 				"Type" : "Microsoft.PreIndexed.Package"
-			}
-		},
-		{
-			"Packages" : 
-			[
-				{
-					"PackageIdentifier" : "9WZDNCRD29V9"
-				},
-				{
-					"PackageIdentifier" : "XPFFH613W8V6LV"
-				}
-			],
-			"SourceDetails" : 
-			{
-				"Argument" : "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
-				"Identifier" : "StoreEdgeFD",
-				"Name" : "msstore",
-				"Type" : "Microsoft.Rest"
 			}
 		}
 	],
