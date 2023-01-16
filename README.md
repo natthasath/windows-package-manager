@@ -1,2 +1,2 @@
 # windows-package-manager
-The winget command line tool enables users to discover, install, upgrade, remove and configure applications on Windows 10 and Windows 11 computers. This tool is the client interface to the Windows Package Manager service.
+Winget is a command-line package manager for Windows developed by Microsoft to discover, install and manage Windows apps through command line.
