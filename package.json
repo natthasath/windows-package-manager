@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-01-11T10:54:11.848-00:00",
+	"CreationDate" : "2023-01-20T22:34:03.833-00:00",
 	"Sources" : 
 	[
 		{
@@ -46,10 +46,16 @@
 					"PackageIdentifier" : "CPUID.CPU-Z"
 				},
 				{
+					"PackageIdentifier" : "Canonical.Ubuntu.2204"
+				},
+				{
 					"PackageIdentifier" : "EFF.Certbot"
 				},
 				{
 					"PackageIdentifier" : "Docker.DockerDesktop"
+				},
+				{
+					"PackageIdentifier" : "GitHub.GitHubDesktop"
 				},
 				{
 					"PackageIdentifier" : "Git.Git"
@@ -98,6 +104,9 @@
 				},
 				{
 					"PackageIdentifier" : "Daum.PotPlayer"
+				},
+				{
+					"PackageIdentifier" : "Qt.QtDesigner"
 				},
 				{
 					"PackageIdentifier" : "RaspberryPiFoundation.RaspberryPiImager"
@@ -163,6 +172,9 @@
 					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
+					"PackageIdentifier" : "ShiningLight.OpenSSL"
+				},
+				{
 					"PackageIdentifier" : "PuTTY.PuTTY"
 				},
 				{
@@ -214,7 +226,10 @@
 					"PackageIdentifier" : "Nvidia.PhysX"
 				},
 				{
-					"PackageIdentifier" : "OpenJS.NodeJS.LTS"
+					"PackageIdentifier" : "Yarn.Yarn"
+				},
+				{
+					"PackageIdentifier" : "OpenJS.NodeJS"
 				},
 				{
 					"PackageIdentifier" : "gileli121.windowtop"
