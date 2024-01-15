@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-05-31T11:05:48.000-00:00",
+	"CreationDate" : "2024-01-15T14:45:37.940-00:00",
 	"Sources" : 
 	[
 		{
@@ -13,10 +13,7 @@
 					"PackageIdentifier" : "9WZDNCRD29V9"
 				},
 				{
-					"PackageIdentifier" : "9N8MHTPHNGVV"
-				},
-				{
-					"PackageIdentifier" : "XPFFH613W8V6LV"
+					"PackageIdentifier" : "9PM860492SZD"
 				},
 				{
 					"PackageIdentifier" : "9NBLGGH6BZL3"
@@ -37,10 +34,16 @@
 					"PackageIdentifier" : "ArduinoSA.IDE.stable"
 				},
 				{
+					"PackageIdentifier" : "Notion.Notion"
+				},
+				{
 					"PackageIdentifier" : "7zip.7zip"
 				},
 				{
 					"PackageIdentifier" : "MichaelTippach.ASIO4ALL"
+				},
+				{
+					"PackageIdentifier" : "Formagrid.Airtable"
 				},
 				{
 					"PackageIdentifier" : "Google.AndroidStudio"
@@ -64,10 +67,19 @@
 					"PackageIdentifier" : "Erlang.ErlangOTP"
 				},
 				{
+					"PackageIdentifier" : "Figma.Figma"
+				},
+				{
+					"PackageIdentifier" : "Figma.FigmaAgent"
+				},
+				{
 					"PackageIdentifier" : "Git.Git"
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
+					"PackageIdentifier" : "Google.PlayGames.Beta"
 				},
 				{
 					"PackageIdentifier" : "Hex-Rays.IDA.Free"
@@ -85,10 +97,34 @@
 					"PackageIdentifier" : "LeNgocKhoa.Laragon"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.Teams"
+				},
+				{
+					"PackageIdentifier" : "MiKTeX.MiKTeX"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.Edge"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.AppInstaller"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Sysinternals.ZoomIt"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DevHome"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WingetCreate"
@@ -107,6 +143,9 @@
 				},
 				{
 					"PackageIdentifier" : "Insecure.Nmap"
+				},
+				{
+					"PackageIdentifier" : "OBSProject.OBSStudio"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive"
@@ -128,6 +167,9 @@
 				},
 				{
 					"PackageIdentifier" : "PremiumSoft.NavicatPremium"
+				},
+				{
+					"PackageIdentifier" : "OSGeo.QGIS_LTR"
 				},
 				{
 					"PackageIdentifier" : "Qt.QtDesigner"
@@ -154,7 +196,7 @@
 					"PackageIdentifier" : "GnuWin32.Tar"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.Teams"
+					"PackageIdentifier" : "Microsoft.Teams.Classic"
 				},
 				{
 					"PackageIdentifier" : "JAMSoftware.TreeSize.Free"
@@ -214,22 +256,34 @@
 					"PackageIdentifier" : "MongoDB.Server"
 				},
 				{
+					"PackageIdentifier" : "Amazon.AWSCLI"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
+					"PackageIdentifier" : "Cloudflare.Warp"
+				},
+				{
 					"PackageIdentifier" : "Oracle.JavaRuntimeEnvironment"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerAutomateDesktop"
+				},
+				{
+					"PackageIdentifier" : "Python.Launcher"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
-					"PackageIdentifier" : "ShiningLight.OpenSSL"
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.WindowsSDK"
+					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.19041"
 				},
 				{
 					"PackageIdentifier" : "PuTTY.PuTTY"
@@ -238,19 +292,25 @@
 					"PackageIdentifier" : "GoLang.Go"
 				},
 				{
+					"PackageIdentifier" : "DBBrowserForSQLite.DBBrowserForSQLite"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64"
 				},
 				{
-					"PackageIdentifier" : "Google.Drive"
+					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2005.x86"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AzureCLI"
@@ -260,6 +320,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Azure.StorageExplorer"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
 					"PackageIdentifier" : "MartinKinkelin.RoboMirror"
@@ -295,9 +358,6 @@
 					"PackageIdentifier" : "MongoDB.MongoDBCLI"
 				},
 				{
-					"PackageIdentifier" : "VMware.WorkstationPlayer"
-				},
-				{
 					"PackageIdentifier" : "osquery.osquery"
 				},
 				{
@@ -310,16 +370,7 @@
 					"PackageIdentifier" : "Robware.RVTools"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerAutomateDesktop"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.WindowsSDK"
-				},
-				{
 					"PackageIdentifier" : "Python.Python.3.10"
-				},
-				{
-					"PackageIdentifier" : "Tableau.Desktop"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.SDK.3_1"
@@ -334,5 +385,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.4.10173"
+	"WinGetVersion" : "1.6.3482"
 }
