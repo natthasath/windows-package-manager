@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-01-15T14:46:37.618-00:00",
+	"CreationDate" : "2024-02-01T09:37:11.192-00:00",
 	"Sources" : 
 	[
 		{
@@ -14,9 +14,6 @@
 				},
 				{
 					"PackageIdentifier" : "9PM860492SZD"
-				},
-				{
-					"PackageIdentifier" : "9NBLGGH6BZL3"
 				}
 			],
 			"SourceDetails" : 
@@ -38,6 +35,9 @@
 				},
 				{
 					"PackageIdentifier" : "7zip.7zip"
+				},
+				{
+					"PackageIdentifier" : "DBVis.DBVisualizer"
 				},
 				{
 					"PackageIdentifier" : "MichaelTippach.ASIO4ALL"
@@ -208,6 +208,9 @@
 					"PackageIdentifier" : "RARLab.WinRAR"
 				},
 				{
+					"PackageIdentifier" : "XnSoft.XnConvert"
+				},
+				{
 					"PackageIdentifier" : "Zoom.Zoom"
 				},
 				{
@@ -253,6 +256,9 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64"
 				},
 				{
+					"PackageIdentifier" : "Cloudflare.Warp"
+				},
+				{
 					"PackageIdentifier" : "MongoDB.Server"
 				},
 				{
@@ -263,9 +269,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerBI"
-				},
-				{
-					"PackageIdentifier" : "Cloudflare.Warp"
 				},
 				{
 					"PackageIdentifier" : "Oracle.JavaRuntimeEnvironment"
@@ -356,6 +359,9 @@
 				},
 				{
 					"PackageIdentifier" : "MongoDB.MongoDBCLI"
+				},
+				{
+					"PackageIdentifier" : "CodeSector.TeraCopy"
 				},
 				{
 					"PackageIdentifier" : "osquery.osquery"
