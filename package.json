@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-02-12T16:30:32.563-00:00",
+	"CreationDate" : "2024-05-30T13:18:54.463-00:00",
 	"Sources" : 
 	[
 		{
@@ -14,6 +14,12 @@
 				},
 				{
 					"PackageIdentifier" : "9PM860492SZD"
+				},
+				{
+					"PackageIdentifier" : "9N8MHTPHNGVV"
+				},
+				{
+					"PackageIdentifier" : "XPFFH613W8V6LV"
 				},
 				{
 					"PackageIdentifier" : "9PCTGDFXVZLJ"
@@ -33,6 +39,9 @@
 		{
 			"Packages" : 
 			[
+				{
+					"PackageIdentifier" : "Bruno.Bruno"
+				},
 				{
 					"PackageIdentifier" : "ArduinoSA.IDE.stable"
 				},
@@ -67,6 +76,9 @@
 					"PackageIdentifier" : "Canonical.Ubuntu.2204"
 				},
 				{
+					"PackageIdentifier" : "ByteDance.CapCut"
+				},
+				{
 					"PackageIdentifier" : "EFF.Certbot"
 				},
 				{
@@ -85,10 +97,13 @@
 					"PackageIdentifier" : "Git.Git"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
+					"PackageIdentifier" : "Google.Chrome.EXE"
 				},
 				{
 					"PackageIdentifier" : "Google.PlayGames.Beta"
+				},
+				{
+					"PackageIdentifier" : "Graphviz.Graphviz"
 				},
 				{
 					"PackageIdentifier" : "Hex-Rays.IDA.Free"
@@ -133,13 +148,13 @@
 					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DevHome"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.WingetCreate"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Teams.Free"
 				},
 				{
 					"PackageIdentifier" : "MongoDB.Compass.Full"
@@ -154,9 +169,6 @@
 					"PackageIdentifier" : "Insecure.Nmap"
 				},
 				{
-					"PackageIdentifier" : "OBSProject.OBSStudio"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
@@ -166,7 +178,7 @@
 					"PackageIdentifier" : "Opera.OperaGX"
 				},
 				{
-					"PackageIdentifier" : "PostgreSQL.PostgreSQL"
+					"PackageIdentifier" : "PostgreSQL.PostgreSQL.15"
 				},
 				{
 					"PackageIdentifier" : "Postman.Postman"
@@ -268,9 +280,6 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64"
 				},
 				{
-					"PackageIdentifier" : "Cloudflare.Warp"
-				},
-				{
 					"PackageIdentifier" : "MongoDB.Server"
 				},
 				{
@@ -296,6 +305,12 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
+				},
+				{
+					"PackageIdentifier" : "ShiningLight.OpenSSL"
+				},
+				{
+					"PackageIdentifier" : "Ollama.Ollama"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.19041"
@@ -367,6 +382,9 @@
 					"PackageIdentifier" : "Yarn.Yarn"
 				},
 				{
+					"PackageIdentifier" : "Cloudflare.Warp"
+				},
+				{
 					"PackageIdentifier" : "gileli121.windowtop"
 				},
 				{
@@ -391,6 +409,9 @@
 					"PackageIdentifier" : "Python.Python.3.10"
 				},
 				{
+					"PackageIdentifier" : "Tableau.Desktop"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.DotNet.SDK.3_1"
 				}
 			],
@@ -403,5 +424,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.6.3482"
+	"WinGetVersion" : "1.7.11261"
 }
