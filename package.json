@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-05-30T13:27:50.099-00:00",
+	"CreationDate" : "2024-05-31T14:12:08.170-00:00",
 	"Sources" : 
 	[
 		{
@@ -113,6 +113,12 @@
 				},
 				{
 					"PackageIdentifier" : "kalilinux.kalilinux"
+				},
+				{
+					"PackageIdentifier" : "Kubernetes.minikube"
+				},
+				{
+					"PackageIdentifier" : "Kubernetes.kind"
 				},
 				{
 					"PackageIdentifier" : "LINE.LINE"
@@ -301,9 +307,6 @@
 					"PackageIdentifier" : "Python.Launcher"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
 				},
 				{
@@ -410,6 +413,9 @@
 				},
 				{
 					"PackageIdentifier" : "Tableau.Desktop"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.SDK.3_1"
