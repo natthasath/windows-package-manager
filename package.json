@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-05-31T14:12:08.170-00:00",
+	"CreationDate" : "2024-06-07T08:54:11.838-00:00",
 	"Sources" : 
 	[
 		{
@@ -295,19 +295,19 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
 					"PackageIdentifier" : "Oracle.JavaRuntimeEnvironment"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerAutomateDesktop"
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
 				},
 				{
 					"PackageIdentifier" : "Python.Launcher"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
 				},
 				{
 					"PackageIdentifier" : "ShiningLight.OpenSSL"
@@ -355,9 +355,6 @@
 					"PackageIdentifier" : "Microsoft.Azure.StorageExplorer"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
-				},
-				{
 					"PackageIdentifier" : "MartinKinkelin.RoboMirror"
 				},
 				{
@@ -394,6 +391,9 @@
 					"PackageIdentifier" : "MongoDB.MongoDBCLI"
 				},
 				{
+					"PackageIdentifier" : "SlackTechnologies.Slack"
+				},
+				{
 					"PackageIdentifier" : "CodeSector.TeraCopy"
 				},
 				{
@@ -407,6 +407,9 @@
 				},
 				{
 					"PackageIdentifier" : "Robware.RVTools"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerAutomateDesktop"
 				},
 				{
 					"PackageIdentifier" : "Python.Python.3.10"
