@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-06-07T08:54:11.838-00:00",
+	"CreationDate" : "2024-06-21T17:01:03.718-00:00",
 	"Sources" : 
 	[
 		{
@@ -275,6 +275,9 @@
 				},
 				{
 					"PackageIdentifier" : "PostgreSQL.pgAdmin"
+				},
+				{
+					"PackageIdentifier" : "SWI-Prolog.SWI-Prolog"
 				},
 				{
 					"PackageIdentifier" : "WinSCP.WinSCP"
