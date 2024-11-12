@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-10-15T11:10:00.537-00:00",
+	"CreationDate" : "2024-11-12T15:03:38.059-00:00",
 	"Sources" : 
 	[
 		{
@@ -85,6 +85,9 @@
 					"PackageIdentifier" : "Neovim.Neovim"
 				},
 				{
+					"PackageIdentifier" : "Cloudflare.Warp"
+				},
+				{
 					"PackageIdentifier" : "PuTTY.PuTTY"
 				},
 				{
@@ -124,13 +127,13 @@
 					"PackageIdentifier" : "OpenJS.NodeJS.LTS"
 				},
 				{
-					"PackageIdentifier" : "Cloudflare.Warp"
-				},
-				{
 					"PackageIdentifier" : "SlackTechnologies.Slack"
 				},
 				{
 					"PackageIdentifier" : "CodeSector.TeraCopy"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.msodbcsql.17"
 				},
 				{
 					"PackageIdentifier" : "osquery.osquery"
@@ -283,6 +286,9 @@
 					"PackageIdentifier" : "Formagrid.Airtable"
 				},
 				{
+					"PackageIdentifier" : "Anthropic.Claude"
+				},
+				{
 					"PackageIdentifier" : "ByteDance.CapCut"
 				},
 				{
@@ -296,9 +302,6 @@
 				},
 				{
 					"PackageIdentifier" : "Kubernetes.kind"
-				},
-				{
-					"PackageIdentifier" : "LINE.LINE"
 				},
 				{
 					"PackageIdentifier" : "MiKTeX.MiKTeX"
@@ -334,9 +337,6 @@
 					"PackageIdentifier" : "Rustlang.Rustup"
 				},
 				{
-					"PackageIdentifier" : "SageMath.SageMath"
-				},
-				{
 					"PackageIdentifier" : "Atlassian.Sourcetree"
 				},
 				{
@@ -361,7 +361,7 @@
 					"PackageIdentifier" : "Balena.Etcher"
 				},
 				{
-					"PackageIdentifier" : "emqx.mqttx"
+					"PackageIdentifier" : "EMQ.MQTTX"
 				},
 				{
 					"PackageIdentifier" : "Insomnia.Insomnia"
@@ -388,7 +388,7 @@
 					"PackageIdentifier" : "Canonical.Ubuntu.2204"
 				},
 				{
-					"PackageIdentifier" : "kalilinux.kalilinux"
+					"PackageIdentifier" : "OffSec.KaliLinux"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Teams"
@@ -457,5 +457,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.8.1911"
+	"WinGetVersion" : "1.9.25180"
 }
