@@ -8,11 +8,35 @@ Winget is a Microsoft-developed command-line package manager for Windows that en
 
 ### 📝 Notes
 
-```
+```shell
 winget list
 winget search xxx
 winget install xxx
 winget upgrade --all
 winget export -o package.json
 winget import -i package.json
+```
+
+### 📦 Create Package
+
+```shell
+winget install wingetcreate
+winget show --id Natthasath.hostctl --source winget
+wingetcreate new https://github.com/natthasath/exam-timer/releases/download/v1.0.0/ExamTimer.exe
+
+---
+- Package identifier: Natthasath.ExamTimer
+- Publisher: Natthasath Saksupanara
+- Package name: Exam Timer
+- License: MIT
+---
+
+```
+
+### 🪅 Test Install Silent Mode
+
+```shell
+Start-Process -FilePath ".\Exam Timer Setup 1.0.0.exe" -ArgumentList "/S" -Wait
+cmd /c "Exam Timer Setup 1.0.0.exe" /S
+& ".\Exam Timer Setup 1.0.0.exe" /S
 ```
