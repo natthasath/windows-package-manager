@@ -1,13 +1,19 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-11-12T15:03:38.059-00:00",
+	"CreationDate" : "2026-01-25T11:34:09.124-00:00",
 	"Sources" : 
 	[
 		{
 			"Packages" : 
 			[
 				{
+					"PackageIdentifier" : "CoreyButler.NVMforWindows"
+				},
+				{
 					"PackageIdentifier" : "7zip.7zip"
+				},
+				{
+					"PackageIdentifier" : "KRTirtho.Spotube"
 				},
 				{
 					"PackageIdentifier" : "DBVis.DBVisualizer"
@@ -25,28 +31,28 @@
 					"PackageIdentifier" : "Docker.DockerDesktop"
 				},
 				{
-					"PackageIdentifier" : "ES-Computing.EditPlus"
-				},
-				{
 					"PackageIdentifier" : "Git.Git"
 				},
 				{
-					"PackageIdentifier" : "Google.PlayGames.Beta"
+					"PackageIdentifier" : "REALiX.HWiNFO"
+				},
+				{
+					"PackageIdentifier" : "HeidiSQL.HeidiSQL"
 				},
 				{
 					"PackageIdentifier" : "Hex-Rays.IDA.Free"
 				},
 				{
-					"PackageIdentifier" : "Mozilla.Firefox"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.OneDrive"
+					"PackageIdentifier" : "PremiumSoft.NavicatPremium"
 				},
 				{
 					"PackageIdentifier" : "PostgreSQL.PostgreSQL.15"
 				},
 				{
-					"PackageIdentifier" : "OSGeo.QGIS_LTR"
+					"PackageIdentifier" : "Streamlink.Streamlink"
+				},
+				{
+					"PackageIdentifier" : "TinyCraft.TinyRDM"
 				},
 				{
 					"PackageIdentifier" : "JAMSoftware.TreeSize.Free"
@@ -67,82 +73,103 @@
 					"PackageIdentifier" : "DigitalScholar.Zotero"
 				},
 				{
-					"PackageIdentifier" : "SWI-Prolog.SWI-Prolog"
-				},
-				{
-					"PackageIdentifier" : "MongoDB.Server"
-				},
-				{
-					"PackageIdentifier" : "Amazon.AWSCLI"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
-				},
-				{
-					"PackageIdentifier" : "Oracle.JavaRuntimeEnvironment"
-				},
-				{
-					"PackageIdentifier" : "Neovim.Neovim"
-				},
-				{
-					"PackageIdentifier" : "Cloudflare.Warp"
-				},
-				{
-					"PackageIdentifier" : "PuTTY.PuTTY"
-				},
-				{
-					"PackageIdentifier" : "GoLang.Go"
-				},
-				{
-					"PackageIdentifier" : "DBBrowserForSQLite.DBBrowserForSQLite"
-				},
-				{
-					"PackageIdentifier" : "Oracle.MySQLWorkbench"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64"
-				},
-				{
-					"PackageIdentifier" : "Google.GoogleDrive"
-				},
-				{
-					"PackageIdentifier" : "EclipseAdoptium.Temurin.11.JRE"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.OpenJDK.21"
-				},
-				{
-					"PackageIdentifier" : "MartinKinkelin.RoboMirror"
-				},
-				{
-					"PackageIdentifier" : "WiresharkFoundation.Wireshark"
-				},
-				{
-					"PackageIdentifier" : "Kitware.CMake"
-				},
-				{
-					"PackageIdentifier" : "Nvidia.PhysX"
-				},
-				{
-					"PackageIdentifier" : "OpenJS.NodeJS.LTS"
-				},
-				{
-					"PackageIdentifier" : "SlackTechnologies.Slack"
-				},
-				{
-					"PackageIdentifier" : "CodeSector.TeraCopy"
+					"PackageIdentifier" : "RedHat.Podman-Desktop"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.msodbcsql.17"
 				},
 				{
-					"PackageIdentifier" : "osquery.osquery"
+					"PackageIdentifier" : "EclipseAdoptium.Temurin.17.JRE"
+				},
+				{
+					"PackageIdentifier" : "Tailscale.Tailscale"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.AzureCLI"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
+					"PackageIdentifier" : "Neovim.Neovim"
+				},
+				{
+					"PackageIdentifier" : "RedHat.Podman"
+				},
+				{
+					"PackageIdentifier" : "Cloudflare.Warp"
+				},
+				{
+					"PackageIdentifier" : "Kitware.CMake"
+				},
+				{
+					"PackageIdentifier" : "DBBrowserForSQLite.DBBrowserForSQLite"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64"
+				},
+				{
+					"PackageIdentifier" : "GoLang.Go"
+				},
+				{
+					"PackageIdentifier" : "RaspberryPiFoundation.RaspberryPiImager"
+				},
+				{
+					"PackageIdentifier" : "Oracle.JavaRuntimeEnvironment"
+				},
+				{
+					"PackageIdentifier" : "MongoDB.Server"
+				},
+				{
+					"PackageIdentifier" : "WiXToolset.WiXCLI"
+				},
+				{
+					"PackageIdentifier" : "MartinKinkelin.RoboMirror"
+				},
+				{
+					"PackageIdentifier" : "Oracle.MySQLWorkbench"
+				},
+				{
+					"PackageIdentifier" : "Amazon.AWSCLI"
+				},
+				{
+					"PackageIdentifier" : "Nvidia.PhysX"
 				},
 				{
 					"PackageIdentifier" : "OpenVPNTechnologies.OpenVPN"
 				},
 				{
-					"PackageIdentifier" : "MichaelTippach.ASIO4ALL"
+					"PackageIdentifier" : "Slik.Subversion"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.OpenJDK.21"
+				},
+				{
+					"PackageIdentifier" : "CommandLine.Wave"
+				},
+				{
+					"PackageIdentifier" : "OpenJS.NodeJS.22"
+				},
+				{
+					"PackageIdentifier" : "SlackTechnologies.Slack"
+				},
+				{
+					"PackageIdentifier" : "WiresharkFoundation.Wireshark"
+				},
+				{
+					"PackageIdentifier" : "CodeSector.TeraCopy"
+				},
+				{
+					"PackageIdentifier" : "osquery.osquery"
+				},
+				{
+					"PackageIdentifier" : "PuTTY.PuTTY"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Community"
 				},
 				{
 					"PackageIdentifier" : "Brave.Brave"
@@ -169,70 +196,70 @@
 					"PackageIdentifier" : "Microsoft.Edge"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
-				},
-				{
 					"PackageIdentifier" : "EclipseFoundation.Mosquitto"
 				},
 				{
 					"PackageIdentifier" : "Insecure.Nmap"
 				},
 				{
-					"PackageIdentifier" : "Daum.PotPlayer"
-				},
-				{
-					"PackageIdentifier" : "PremiumSoft.NavicatPremium"
-				},
-				{
 					"PackageIdentifier" : "Qt.QtDesigner"
+				},
+				{
+					"PackageIdentifier" : "Rainmeter.Rainmeter"
 				},
 				{
 					"PackageIdentifier" : "GnuWin32.Tar"
 				},
 				{
+					"PackageIdentifier" : "Wasmer.Wasmer"
+				},
+				{
+					"PackageIdentifier" : "RamenSoftware.Windhawk"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VisualStudio.2022.BuildTools"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VisualStudio.2019.BuildTools"
-				},
-				{
-					"PackageIdentifier" : "PeterPawlowski.foobar2000"
 				},
 				{
 					"PackageIdentifier" : "Heroku.HerokuCLI"
 				},
 				{
+					"PackageIdentifier" : "vivo.OfficeKit"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
 				},
 				{
-					"PackageIdentifier" : "Python.Launcher"
+					"PackageIdentifier" : "Microsoft.PowerBI"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.19041"
+					"PackageIdentifier" : "Microsoft.PowerAutomateDesktop"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2005.x86"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.AzureCLI"
+					"PackageIdentifier" : "Robware.RVTools"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.6"
+				},
+				{
+					"PackageIdentifier" : "WiXToolset.WiXAdditionalTools"
 				},
 				{
 					"PackageIdentifier" : "TechPowerUp.GPU-Z"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.Framework.DeveloperPack.4.6"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
+				},
+				{
+					"PackageIdentifier" : "Yarn.Yarn"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86"
@@ -241,34 +268,40 @@
 					"PackageIdentifier" : "DEVCOM.JMeter"
 				},
 				{
-					"PackageIdentifier" : "Yarn.Yarn"
+					"PackageIdentifier" : "Python.Launcher"
 				},
 				{
 					"PackageIdentifier" : "gileli121.windowtop"
 				},
 				{
-					"PackageIdentifier" : "MongoDB.MongoDBCLI"
+					"PackageIdentifier" : "PDFLabs.PDFtk.Server"
 				},
 				{
-					"PackageIdentifier" : "PDFLabs.PDFtk.Server"
+					"PackageIdentifier" : "MongoDB.MongoDBCLI"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86"
 				},
 				{
-					"PackageIdentifier" : "Robware.RVTools"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerAutomateDesktop"
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64"
 				},
 				{
 					"PackageIdentifier" : "Tableau.Desktop"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.SDK.3_1"
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
-					"PackageIdentifier" : "DocumizeInc.Zerabase"
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.3_1"
 				},
 				{
 					"PackageIdentifier" : "Bruno.Bruno"
@@ -292,10 +325,22 @@
 					"PackageIdentifier" : "ByteDance.CapCut"
 				},
 				{
+					"PackageIdentifier" : "DenoLand.Deno"
+				},
+				{
+					"PackageIdentifier" : "Derailed.k9s"
+				},
+				{
+					"PackageIdentifier" : "OliverBetz.ExifTool"
+				},
+				{
 					"PackageIdentifier" : "Figma.Figma"
 				},
 				{
 					"PackageIdentifier" : "Figma.FigmaAgent"
+				},
+				{
+					"PackageIdentifier" : "Gyan.FFmpeg"
 				},
 				{
 					"PackageIdentifier" : "JernejSimoncic.Wget"
@@ -322,13 +367,10 @@
 					"PackageIdentifier" : "Opera.OperaGX"
 				},
 				{
+					"PackageIdentifier" : "Perplexity.Comet"
+				},
+				{
 					"PackageIdentifier" : "Postman.Postman"
-				},
-				{
-					"PackageIdentifier" : "RaspberryPiFoundation.RaspberryPiImager"
-				},
-				{
-					"PackageIdentifier" : "Rclone.Rclone"
 				},
 				{
 					"PackageIdentifier" : "Rufus.Rufus"
@@ -337,28 +379,25 @@
 					"PackageIdentifier" : "Rustlang.Rustup"
 				},
 				{
+					"PackageIdentifier" : "Slackadays.Clipboard"
+				},
+				{
 					"PackageIdentifier" : "Atlassian.Sourcetree"
 				},
 				{
 					"PackageIdentifier" : "Spotify.Spotify"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.Teams.Classic"
-				},
-				{
 					"PackageIdentifier" : "Zoom.Zoom.EXE"
-				},
-				{
-					"PackageIdentifier" : "qishibo.AnotherRedisDesktopManager"
 				},
 				{
 					"PackageIdentifier" : "Mirantis.Lens"
 				},
 				{
-					"PackageIdentifier" : "Obsidian.Obsidian"
+					"PackageIdentifier" : "Balena.Etcher"
 				},
 				{
-					"PackageIdentifier" : "Balena.Etcher"
+					"PackageIdentifier" : "Obsidian.Obsidian"
 				},
 				{
 					"PackageIdentifier" : "EMQ.MQTTX"
@@ -367,19 +406,40 @@
 					"PackageIdentifier" : "Insomnia.Insomnia"
 				},
 				{
+					"PackageIdentifier" : "openpubkey.opkssh"
+				},
+				{
 					"PackageIdentifier" : "PostgreSQL.pgAdmin"
+				},
+				{
+					"PackageIdentifier" : "Thewh1teagle.vibe"
 				},
 				{
 					"PackageIdentifier" : "WinSCP.WinSCP"
 				},
 				{
-					"PackageIdentifier" : "Ollama.Ollama"
+					"PackageIdentifier" : "yt-dlp.FFmpeg"
+				},
+				{
+					"PackageIdentifier" : "yt-dlp.yt-dlp"
+				},
+				{
+					"PackageIdentifier" : "Python.Python.3.13"
+				},
+				{
+					"PackageIdentifier" : "Codeium.Windsurf"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Azure.StorageExplorer"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.Azure.StorageExplorer"
+					"PackageIdentifier" : "Google.Antigravity"
+				},
+				{
+					"PackageIdentifier" : "Anysphere.Cursor"
 				},
 				{
 					"PackageIdentifier" : "Python.Python.3.10"
@@ -410,6 +470,12 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsApp"
+				},
+				{
+					"PackageIdentifier" : "Debian.Debian"
 				}
 			],
 			"SourceDetails" : 
@@ -430,6 +496,9 @@
 					"PackageIdentifier" : "XPFFH613W8V6LV"
 				},
 				{
+					"PackageIdentifier" : "9PNTBL35PZVS"
+				},
+				{
 					"PackageIdentifier" : "9PG6GHB4CT57"
 				},
 				{
@@ -445,6 +514,9 @@
 					"PackageIdentifier" : "9N8MHTPHNGVV"
 				},
 				{
+					"PackageIdentifier" : "9NT1R1C2HH7J"
+				},
+				{
 					"PackageIdentifier" : "9PCTGDFXVZLJ"
 				}
 			],
@@ -457,5 +529,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.9.25180"
+	"WinGetVersion" : "1.12.460"
 }
