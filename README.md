@@ -13,10 +13,10 @@ winget search xxx
 winget install xxx
 winget upgrade --all
 winget export -o package.json
-winget import -i package.json
+winget import -i package.json --accept-package-agreements --accept-source-agreements --ignore-unavailable
 ```
 
-[`package.json`](package.json) is the exported package list in this repo — restore it on a new machine with `winget import -i package.json`.
+[`package.json`](package.json) is the exported package list in this repo — restore it on a new machine with the import command above. It mixes the `winget` and `msstore` sources, so the extra flags avoid a partial import failure; see Troubleshooting below if you'd rather export per source instead.
 
 ### 🧩 Create Package
 
@@ -40,6 +40,26 @@ Start-Process -FilePath ".\Exam Timer Setup 1.0.0.exe" -ArgumentList "/S" -Wait
 cmd /c "Exam Timer Setup 1.0.0.exe" /S
 & ".\Exam Timer Setup 1.0.0.exe" /S
 ```
+
+### ⚠️ Troubleshooting
+
+**Mixed sources in `winget export`** — `winget export -o package.json` without `--source` bundles packages from every enabled source into one file. In this repo that means `winget` and `msstore` entries mixed together, which causes problems when importing on another machine:
+
+- `msstore` entries are Microsoft Store Product IDs (e.g. `9NBLGGH6BZL3`) tied to a signed-in Microsoft account and region — they fail to install on a machine/account without access to that app.
+- Each source needs its own agreement acceptance; running `winget import` non-interactively without the right flags hangs or errors out.
+- If a source isn't registered on the target machine, every package from it fails to import unless ignored explicitly.
+
+> [!IMPORTANT]
+> Run `winget import -i package.json --accept-package-agreements --accept-source-agreements --ignore-unavailable` to avoid partial import failures.
+
+A cleaner fix is exporting per source instead of mixing them:
+
+```shell
+winget export -o package-winget-only.json --source winget
+winget export -o package-msstore-only.json --source msstore
+```
+
+[`package-winget-only.json`](package-winget-only.json) and [`package-msstore-only.json`](package-msstore-only.json) in this repo are kept separate for exactly this reason — restore them independently with `winget import -i <file>` to avoid Microsoft Store account/region issues entirely.
 
 ### 📜 License
 
