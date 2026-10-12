@@ -1,0 +1,47 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-01-25T11:34:09.124-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "9NBLGGH6BZL3"
+        },
+        {
+          "PackageIdentifier": "XPFFH613W8V6LV"
+        },
+        {
+          "PackageIdentifier": "9PNTBL35PZVS"
+        },
+        {
+          "PackageIdentifier": "9PG6GHB4CT57"
+        },
+        {
+          "PackageIdentifier": "9PKVZCPRX9NV"
+        },
+        {
+          "PackageIdentifier": "9WZDNCRD29V9"
+        },
+        {
+          "PackageIdentifier": "9PM860492SZD"
+        },
+        {
+          "PackageIdentifier": "9N8MHTPHNGVV"
+        },
+        {
+          "PackageIdentifier": "9NT1R1C2HH7J"
+        },
+        {
+          "PackageIdentifier": "9PCTGDFXVZLJ"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+        "Identifier": "StoreEdgeFD",
+        "Name": "msstore",
+        "Type": "Microsoft.Rest"
+      }
+    }
+  ],
+  "WinGetVersion": "1.12.460"
+}
