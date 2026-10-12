@@ -5,6 +5,21 @@ Winget is a Microsoft-developed command-line package manager for Windows that en
 ![platform](https://img.shields.io/badge/platform-windows-lightgrey)
 ![license](https://img.shields.io/github/license/natthasath/windows-package-manager)
 
+### ⚙️ Configuration
+
+Install PowerShell 7 and set it as the default shell (replacing Windows PowerShell 5.1), then enable predictive IntelliSense:
+
+```shell
+winget install --id Microsoft.PowerShell --source winget
+```
+
+Set PowerShell 7 (`pwsh`) as the default profile in Windows Terminal (Settings → Startup → Default profile → **PowerShell**), then add the following to the PowerShell 7 profile (`$PROFILE`) to show inline suggestions from command history:
+
+```powershell
+Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+Set-PSReadLineOption -PredictionViewStyle InlineView
+```
+
 ### 🏆 Usage
 
 ```shell
