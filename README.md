@@ -5,6 +5,17 @@ Winget is a Microsoft-developed command-line package manager for Windows that en
 ![platform](https://img.shields.io/badge/platform-windows-lightgrey)
 ![license](https://img.shields.io/github/license/natthasath/windows-package-manager)
 
+### ✅ Requirements
+
+Windows blocks running local PowerShell scripts by default (`Restricted` execution policy). This breaks the profile setup below and any local `.ps1` helper script with a `cannot be loaded because running scripts is disabled on this system` error.
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+> [!IMPORTANT]
+> Run this once per user before setting up the PowerShell profile or installing packages — otherwise local scripts (including `$PROFILE`) silently fail to load.
+
 ### ⚙️ Configuration
 
 Install PowerShell 7 and set it as the default shell (replacing Windows PowerShell 5.1), then enable predictive IntelliSense:
